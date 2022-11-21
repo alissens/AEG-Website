@@ -1,0 +1,180 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+a.nav-link {
+    color: white;
+}
+
+.h1, h2, h3 {
+    font-family: Monserrat, Helvetica, Arial, sans-serif
+}
+
+.description {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 1.5rem;
+    font-weight: 100;
+}
+
+.navbar-brand {
+    color: white;
+    margin: 1.3rem;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+}
+
+.nav-item {
+    margin: 1.3rem;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+
+.navbar-style {
+    background-color: #202A44;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgb(255,255,255);
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+}
+
+/* Carousel */
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(1, 1);
+    }
+
+    to {
+        -webkit-transform: scale(1.2, 1.2);
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1, 1);
+    }
+
+    to {
+        transform: scale(1.2, 1.2);
+    }
+}
+
+.carousel-inner img {
+    object-fit: cover;
+    height: 40rem !important;
+    -webkit-animation: zoom 20s;
+    animation: zoom 20s;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+/* End Carousel */
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+        .navbar-collapse {
+            position: absolute;
+            top: 100px;
+            left: 0;
+            color: blue;
+            background-color: #202A44;
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 892px) {
+        .innerThumbnail {
+            width: 300px;
+        }
+
+            .innerThumbnail img {
+                width: 300px;
+            }
+    }
+
+
+    /* Sticky footer styles
+-------------------------------------------------- */
+    html {
+        font-size: 14px;
+    }
+
+    @media (min-width: 768px) {
+        html {
+            font-size: 16px;
+        }
+    }
+
+    .border-top {
+        border-top: 1px solid #e5e5e5;
+    }
+
+    .border-bottom {
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .box-shadow {
+        box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    }
+
+    button.accept-policy {
+        font-size: 1rem;
+        line-height: inherit;
+    }
+
+    /* Sticky footer styles
+-------------------------------------------------- */
+    html {
+        position: relative;
+        min-height: 100%;
+    }
+
+    body {
+        /* Margin bottom by footer height */
+        margin-bottom: 60px;
+    }
+
+    .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        white-space: nowrap;
+        line-height: 60px; /* Vertically center the text there */
+        font-family: Monserrat;
+    }
