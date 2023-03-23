@@ -17,6 +17,10 @@ a {
     padding-top: 5rem;
 }
 
+.ab {
+    margin-bottom: 0.5rem;
+}
+
 .about-img {
     width: 100%;
     transition: all .2s ease-in-out;
@@ -25,6 +29,19 @@ a {
     .about-img:hover {
         transform: scale(1.1);
     }
+
+.arrow-image {
+    max-height: 2.5rem;
+    margin-bottom: 0.2rem;
+}
+
+.after {
+    display: block;
+}
+
+.before {
+    display: block;
+}
 
 .services-img {
     width: 20%;
@@ -78,6 +95,43 @@ a.nav-link {
     font-weight: 100;
     font-size: 2rem;
     text-align: center;
+}
+
+.portfolio {
+    display: block;
+}
+
+.portfolio-row {
+    display: flex;
+}
+
+.portfolio-text {
+    display: block;
+}
+
+.portfolio-item-left {
+    display: block;
+    width: 40%;
+    margin: 0.5rem;
+}
+
+.portfolio-item-right {
+    float: right;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    margin-bottom: 1.2rem;
+}
+
+.portfolio-image {
+    margin-top: 0.3rem;
+    box-sizing: border-box;
+    width: auto;
+    max-height: 30rem;
+}
+
+.portfolio-before-after {
+    display: inline-grid;
 }
 
 .navbar {
