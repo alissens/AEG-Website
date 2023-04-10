@@ -18,7 +18,7 @@ a {
 }
 
 .ab {
-    margin-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
 }
 
 .about-img {
@@ -50,7 +50,7 @@ a {
 .text-about {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.4rem;
-    padding: 2rem;
+    padding: 0 2rem;
     max-width: 60%;
 }
 
@@ -102,36 +102,37 @@ a.nav-link {
 }
 
 .portfolio-row {
-    display: flex;
 }
 
 .portfolio-text {
     display: block;
 }
 
-.portfolio-item-left {
+.portfolio-item-title {
     display: block;
-    width: 50%;
-    margin: 0.5rem;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
 }
 
-.portfolio-item-right {
-    float: right;
-    position: relative;
-    display: inline-block;
-    z-index: 1;
-    margin-bottom: 1.2rem;
+.portfolio-item-grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.3rem;
+    margin-bottom: 1rem;
 }
 
 .portfolio-image {
-    margin-top: 0.3rem;
     box-sizing: border-box;
-    width: auto;
-    max-height: 30rem;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
 }
 
-.portfolio-before-after {
-    display: inline-grid;
+.portfolio-item-images {
+    display: grid;
+    text-align: center;
 }
 
 .navbar {
@@ -261,6 +262,14 @@ ul {
     .text-center div {
         padding: 0 0 1.5rem 0;
     }
+
+    .carousel-inner {
+        height: 50vh;
+    }
+
+        .carousel-inner img {
+            height: 50vh !important;
+        }
 }
 
 /* Sticky footer styles
