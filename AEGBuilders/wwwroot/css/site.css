@@ -133,6 +133,7 @@ a.nav-link {
 .portfolio-item-images {
     display: grid;
     text-align: center;
+    margin: auto;
 }
 
 .navbar {
