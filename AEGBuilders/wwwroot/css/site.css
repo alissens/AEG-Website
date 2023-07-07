@@ -181,6 +181,10 @@ a.nav-link {
     max-width: 100vw;
 }
 
+.navbar ul {
+    background-color: #202a44;
+}
+
 ul {
     display: inline-block;
     text-align: left;
